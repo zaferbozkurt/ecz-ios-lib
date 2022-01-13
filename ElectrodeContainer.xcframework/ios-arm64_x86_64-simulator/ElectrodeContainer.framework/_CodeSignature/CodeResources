@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		18pQmOKxemJrqnUfPh4twRjt5Yk=
+		GtNONT3kXcDE+AZ1tPFZ2fiGRHE=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		UXwXxKe6vj3KFhB0RE4ZeAf0BIw=
+		Pwxh/uzGhF0M97aBS+jIwzEHdxo=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		9HY42Lq4aBWdTA+5uY+IupkULkQ=
+		eW0sRzw11hOZ2L+UXev2qbPDpSk=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		ZA2OUR/SauLMDkFtLt2Qi2C9wB4=
+		RMh4lkG5vRpiauJ2diBFyeeUV/0=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -32,7 +32,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ha91OZw4TOgWUxuUT5BbsiwqaW0=
+			X9E0vQNrSNVBkgqtimYht4o7EEg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,7 +71,7 @@
 		</data>
 		<key>Headers/ElectrodeContainer-Swift.h</key>
 		<data>
-		2OKMCvJ2BlVwyaSIXD66AOFesQ8=
+		zESzEAWQkuTQhKRpIOUujM1Remg=
 		</data>
 		<key>Headers/ElectrodeContainer.h</key>
 		<data>
@@ -105,10 +105,6 @@
 		<data>
 		05wUodnhssyFa0A0LsF/CQFpjcA=
 		</data>
-		<key>Headers/Item.swift</key>
-		<data>
-		JRdpXNvx6MyKu85qlPvEmVJA/+M=
-		</data>
 		<key>Headers/NavEventData.swift</key>
 		<data>
 		eljWXO2Gs60zvZGYgSDxQqeCZ+o=
@@ -125,25 +121,13 @@
 		<data>
 		UbwbTtvfWadmuXZbnwmi1Wkhfg8=
 		</data>
-		<key>Headers/WalmartItemAPI.swift</key>
-		<data>
-		V+nYOBrsmQfGi1djtdthuTsqfPY=
-		</data>
-		<key>Headers/WalmartItemEvents.swift</key>
-		<data>
-		2LqwGfJK0YOvi5fe5gQebO7LhQk=
-		</data>
-		<key>Headers/WalmartItemRequests.swift</key>
-		<data>
-		mUkeDHFNf3njm0oG9cTm1Vjl+4c=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		9IkcOPgD84tpLo+0zaRBDel8Ebw=
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		qdfd3QKHQTbkEydzHEZmGYFOM2Q=
+		jHqfDcZCqGrv8VBvFL+mH/Kp+js=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -151,11 +135,11 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6XDSQYJTluK8jk5kKIB73W9ob5Y=
+		/OHmTdEkIDaXpA7EejFAaaCp6Hs=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1mG2ZNZ+TxZo4L1iA3LgHSQZgKg=
+		fXJOXSOmKDebBRSPcNEU6elDqeU=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -163,11 +147,11 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		6XDSQYJTluK8jk5kKIB73W9ob5Y=
+		/OHmTdEkIDaXpA7EejFAaaCp6Hs=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1mG2ZNZ+TxZo4L1iA3LgHSQZgKg=
+		fXJOXSOmKDebBRSPcNEU6elDqeU=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -175,11 +159,11 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZWG3k6pP684+F8XWXAOJ758mmK0=
+		OWd6J4hgex2XRHC02XL/+ZiPqdc=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mla0S9qPFrLQQwYVQJqSRdhh5AA=
+		sAC/A2njc5GOsRLofmJsquV5lwA=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -187,11 +171,11 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ZWG3k6pP684+F8XWXAOJ758mmK0=
+		OWd6J4hgex2XRHC02XL/+ZiPqdc=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mla0S9qPFrLQQwYVQJqSRdhh5AA=
+		sAC/A2njc5GOsRLofmJsquV5lwA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -201,6 +185,74 @@
 		<data>
 		XdqLAfT+cHb3wnrIxirbSfFLWVQ=
 		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about.png</key>
+		<data>
+		voyba8l2V4o10CQJxJ6f2S22t4A=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about@2x.png</key>
+		<data>
+		4RI+CAN9bcn+DfJqRfOI5TTpXoY=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about@3x.png</key>
+		<data>
+		5C69eqg5MVOfxaszZ1erUqcwyyE=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right.png</key>
+		<data>
+		1yFszGJl0cFl6UDEAtm1v49TS3I=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right@2x.png</key>
+		<data>
+		XQtzdABaG8QukRu9s0XveOWiDkg=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right@3x.png</key>
+		<data>
+		RdNjvSFUeGlifgmG7quUoOjhcnA=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit.png</key>
+		<data>
+		/gFDLB1t4X7LG7t/XLAy153mfNk=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit@2x.png</key>
+		<data>
+		lCx7GK2iryXdzBMjNMmkZKsrVBs=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit@3x.png</key>
+		<data>
+		QvqZ+jhXn/lcIAIo9h+oV1c1G8g=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage.png</key>
+		<data>
+		Vt3+PnCUW7KnzQCVxNfZujjGVHc=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage@2x.png</key>
+		<data>
+		1jYZLt7lK+XviIqlF4kNUFXxdiA=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage@3x.png</key>
+		<data>
+		EIqLvhn++oBtHeTUIs66Vmfa6RQ=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh.png</key>
+		<data>
+		UEshu/aRdTQ5HH0LSaJp4XZS4MI=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh@2x.png</key>
+		<data>
+		y0yGdoKNaMfnYR3GLYAPtFW19r0=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh@3x.png</key>
+		<data>
+		2uqCiKxWwZXxmhpBXkFK+QqVIiU=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/images/electrode-logo.png</key>
+		<data>
+		VIEm+SdkJd/ozTH1mNwG2LHqdW4=
+		</data>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/images/tmdb.png</key>
+		<data>
+		yrQoaqY8XqdZG5ksdq+4gTetWPM=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -208,14 +260,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6HmnvI2QAzWhZuSn6qR4pyjRLWUIMVvfA58KJsVElQc=
+			k/xHYVBK+NuU4jf3QcQDO7OcT/uzxRcmB0rxRWE0Ucg=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uwe/NG0DGj6+TEeikp0F9NWVLPogW1Oae3h0ybX285A=
+			1GbQsPmcD+HBhmQG4mKIW7TfcKjnrCQjPdF+VCyYlAw=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -229,14 +281,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2rb9v4Yp4vt32DDSl4eg40fjzDosfEMS9eqPzBVbw1s=
+			hc4sOZzIrwjCi+NbC7FY4ExFHFWLpg3uz/61COSepj4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SMLsTIrqiAkRdNeDGWaFt/v3IpWWZDWIJNd4y4nKPQI=
+			P78dgVuYBN6LjxMpLPm3PU7TVW+nH5E8LhE3e7gyZR4=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeSignature</key>
@@ -250,7 +302,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rM6zbBjCwQ4kWKt7KvhUq272nxb33Bj0GDkxdLuGekE=
+			w1hfj69Kbb8WcP7mQdPFb//Z6XisMBZJwk6rwYndD5Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -315,7 +367,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo0KotPdhjRLw3neeeRon1dxqW7XFT/7+cQLvCTzebw=
+			+AoxW2mc3F5yo7N4f46FmyDf07oEPhw6fCXT4r38FE4=
 			</data>
 		</dict>
 		<key>Headers/ElectrodeContainer.h</key>
@@ -374,13 +426,6 @@
 			PDisgxu6eNFnfgzPgkNeTmdEr+D0Pz9eCsd6ASwfcq8=
 			</data>
 		</dict>
-		<key>Headers/Item.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			heqrga+3fcRDuAad2XPBg3RdwIs8JUydm8P1UwlsK0E=
-			</data>
-		</dict>
 		<key>Headers/NavEventData.swift</key>
 		<dict>
 			<key>hash2</key>
@@ -409,32 +454,11 @@
 			lhDZaqx2JveT4qS8lTSQGO4e2lIAofcotTaZ26Ufp6A=
 			</data>
 		</dict>
-		<key>Headers/WalmartItemAPI.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DHyiBqwFJelZprVaomf4/YBuCNHGKye9tHHImQHUx5Q=
-			</data>
-		</dict>
-		<key>Headers/WalmartItemEvents.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S9IZsNkXRJ+/mGT1Jsi2gG0/TL+B3hoDw3AQ2Q0TWDc=
-			</data>
-		</dict>
-		<key>Headers/WalmartItemRequests.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9oRjmzYWqd43VEJI32Js5/omjdxRT4FFooDifZfMEU4=
-			</data>
-		</dict>
 		<key>MiniApp.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OP/VGLsqkGSII/zgjgBRxZf2s4qTNE/YDBgloh00uFw=
+			QyCB+g3jSre1qQIgr0Wh2CkJJejWbohlRHRsCZ9cmSI=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -448,14 +472,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8u0mkp0QGqSOsfAVWNFQ5ESmO09FsRmmhkmhEv97Tg=
+			etW8fpcxVKYVtS9rgsz1idazh8ARSR/yRr1FnYr9UXo=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0BUQ/ON76zN0rxbdR+osZtD36jYtnLWjsBuMFp922A4=
+			Jh+xGq0Fcq++f4F7AqX0eTM9OaFYH+5kURwnJIw0VuY=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64.swiftdoc</key>
@@ -469,14 +493,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8u0mkp0QGqSOsfAVWNFQ5ESmO09FsRmmhkmhEv97Tg=
+			etW8fpcxVKYVtS9rgsz1idazh8ARSR/yRr1FnYr9UXo=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0BUQ/ON76zN0rxbdR+osZtD36jYtnLWjsBuMFp922A4=
+			Jh+xGq0Fcq++f4F7AqX0eTM9OaFYH+5kURwnJIw0VuY=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -490,14 +514,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bz6oa75e3Z1p/mxiOyfpB6fcWFsJMBTjHuBRzVKm39o=
+			TWhmNPXEUuEk5X6ubvD8Oqm/f/XSvK6AeaYIjg1USCM=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOpC37iG3GuDI8t9zEDSn182b+dWUbe7a8gADmIgdM0=
+			pAcWgUgOOXCv2RvLe+/Krxlw0rrudfnKFMSyfUBgbec=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftdoc</key>
@@ -511,14 +535,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bz6oa75e3Z1p/mxiOyfpB6fcWFsJMBTjHuBRzVKm39o=
+			TWhmNPXEUuEk5X6ubvD8Oqm/f/XSvK6AeaYIjg1USCM=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOpC37iG3GuDI8t9zEDSn182b+dWUbe7a8gADmIgdM0=
+			pAcWgUgOOXCv2RvLe+/Krxlw0rrudfnKFMSyfUBgbec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -533,6 +557,125 @@
 			<key>hash2</key>
 			<data>
 			6Ncqh0D3/+YFGwzKAPXEwnwAuQ6plc4bQl6wcaLiTOk=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/G3ObmR6xKQfhf4SHS9pvuN9/fGtOSM+SxE0M056/lo=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8yCcQoAidA43jiezmgiq5D4HCLWJNzXcG7Qx3NWmcLk=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/about@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MP6y9syAV0jMJw4xzRDUxsvMlxFhj2ozO9U6puA84pg=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A9pXvj05BDr37+Uqq7PM0oezvuZq0YipvXzretyFr+A=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qU3ZAxQu+rDDQ7BWk3cGV6ikMsShXCKbMehSHCpXhb0=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/chevron-right@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o9haQkrpg1rKn4cZQtBbXaJF3gWCMO8Iolm/5luEW2g=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			czIU6SJdc4g4M52kT5Xxt6vo9QSCF+d3lFVbIeuNHfE=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tkU+pcoCQXraNxgeRUWZI+5WwDG4HN+I8hnl3k36/EQ=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/exit@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vO3/XaEJMz2vzWsbPi64RBpuYkrzmN0WnRcFbxyZe2E=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i6Y0Yx7WWWRPPEgSRmzGigWJ4Pf8986V/PntuLz1fac=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WiERkYi2hZBAETJ6KBdjtXCnZMWOqUnXZifgm3QsFUQ=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/firstpage@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vn5Fv0RXv1QMqf3U5Bft+MPnskviOWobF5txDvTs840=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eEH03zYe6r7MuAUfO3vu8qyZ5e62eYKdkXDoL+bv85A=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ureUYIBWO3qRqwqTRfYlZkf/3ngjFgwQw3gxX4V3zt4=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/icons/refresh@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XJ41E/loec+TzSTnJi00mfsnVD9xSXOh/ASpJ+9CrQs=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/images/electrode-logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nCPrC6gSWc2IF9iMgxt9w0HvC8c0qihwtuAX7ZCWP+o=
+			</data>
+		</dict>
+		<key>assets/node_modules/movies-reloaded-miniapp/src/images/tmdb.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ENPUHSoK+evLhff7Yv+2ZxwVro6pvIKixpQfIjFDQJ4=
 			</data>
 		</dict>
 	</dict>

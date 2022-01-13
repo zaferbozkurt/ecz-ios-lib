@@ -278,13 +278,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer20ENNavigationDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC18ElectrodeContainer30EczMiniappNavigationController")
-@interface EczMiniappNavigationController : ENBaseNavigationController
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC18ElectrodeContainer15ElectrodeObject")
 @interface ElectrodeObject : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -445,18 +438,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer11ErnNavRoute")
 @end
 
 
-SWIFT_CLASS("_TtC18ElectrodeContainer4Item")
-@interface Item : ElectrodeObject <Bridgeable>
-@property (nonatomic, readonly) int64_t id;
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nullable desc;
-- (nonnull instancetype)initWithId:(int64_t)id name:(NSString * _Nonnull)name desc:(NSString * _Nullable)desc OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithDictionary:(NSDictionary * _Nonnull)dictionary OBJC_DESIGNATED_INITIALIZER;
-- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 SWIFT_CLASS("_TtC18ElectrodeContainer24MiniAppNavViewController")
 @interface MiniAppNavViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -466,6 +447,13 @@ SWIFT_CLASS("_TtC18ElectrodeContainer24MiniAppNavViewController")
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer34MoviesReloadedNavigationController")
+@interface MoviesReloadedNavigationController : ENBaseNavigationController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -553,72 +541,6 @@ SWIFT_PROTOCOL("_TtP18ElectrodeContainer9Processor_")
 
 
 
-
-@class WalmartItemAPIEvents;
-@class WalmartItemAPIRequests;
-
-SWIFT_CLASS("_TtC18ElectrodeContainer14WalmartItemAPI")
-@interface WalmartItemAPI : NSObject
-@property (nonatomic, strong) WalmartItemAPIEvents * _Nonnull events;
-@property (nonatomic, strong) WalmartItemAPIRequests * _Nonnull requests;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer20WalmartItemAPIEvents")
-@interface WalmartItemAPIEvents : NSObject
-- (NSUUID * _Nullable)addItemAddedEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeEventListener _Nullable)removeItemAddedEventListenerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (void)emitEventItemAddedWithItemId:(NSString * _Nonnull)_;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer22WalmartItemAPIRequests")
-@interface WalmartItemAPIRequests : NSObject
-- (NSUUID * _Nullable)registerAddItemRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerAddUserRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerClickDetailRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerFindItemsRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerGetUsersRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddItemRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddUserRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterClickDetailRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterFindItemsRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterGetUsersRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (void)clickDetailWithResponseCompletionHandler:(void (^ _Nonnull)(Item * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (void)findItemsWithLimit:(NSInteger)_ responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (void)getUsersWithLimit:(NSInteger)_ responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer17WalmartItemEvents")
-@interface WalmartItemEvents : WalmartItemAPIEvents
-- (NSUUID * _Nullable)addItemAddedEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)eventListener SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeEventListener _Nullable)removeItemAddedEventListenerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (void)emitEventItemAddedWithItemId:(NSString * _Nonnull)itemId;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer19WalmartItemRequests")
-@interface WalmartItemRequests : WalmartItemAPIRequests
-- (NSUUID * _Nullable)registerAddItemRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerAddUserRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerClickDetailRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerFindItemsRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerGetUsersRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddItemRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddUserRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterClickDetailRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterFindItemsRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterGetUsersRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (void)clickDetailWithResponseCompletionHandler:(void (^ _Nonnull)(Item * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (void)findItemsWithLimit:(NSInteger)limit responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (void)getUsersWithLimit:(NSInteger)limit responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -905,13 +827,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer20ENNavigationDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC18ElectrodeContainer30EczMiniappNavigationController")
-@interface EczMiniappNavigationController : ENBaseNavigationController
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC18ElectrodeContainer15ElectrodeObject")
 @interface ElectrodeObject : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -1072,18 +987,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer11ErnNavRoute")
 @end
 
 
-SWIFT_CLASS("_TtC18ElectrodeContainer4Item")
-@interface Item : ElectrodeObject <Bridgeable>
-@property (nonatomic, readonly) int64_t id;
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nullable desc;
-- (nonnull instancetype)initWithId:(int64_t)id name:(NSString * _Nonnull)name desc:(NSString * _Nullable)desc OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithDictionary:(NSDictionary * _Nonnull)dictionary OBJC_DESIGNATED_INITIALIZER;
-- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 SWIFT_CLASS("_TtC18ElectrodeContainer24MiniAppNavViewController")
 @interface MiniAppNavViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -1093,6 +996,13 @@ SWIFT_CLASS("_TtC18ElectrodeContainer24MiniAppNavViewController")
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer34MoviesReloadedNavigationController")
+@interface MoviesReloadedNavigationController : ENBaseNavigationController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1180,72 +1090,6 @@ SWIFT_PROTOCOL("_TtP18ElectrodeContainer9Processor_")
 
 
 
-
-@class WalmartItemAPIEvents;
-@class WalmartItemAPIRequests;
-
-SWIFT_CLASS("_TtC18ElectrodeContainer14WalmartItemAPI")
-@interface WalmartItemAPI : NSObject
-@property (nonatomic, strong) WalmartItemAPIEvents * _Nonnull events;
-@property (nonatomic, strong) WalmartItemAPIRequests * _Nonnull requests;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer20WalmartItemAPIEvents")
-@interface WalmartItemAPIEvents : NSObject
-- (NSUUID * _Nullable)addItemAddedEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeEventListener _Nullable)removeItemAddedEventListenerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (void)emitEventItemAddedWithItemId:(NSString * _Nonnull)_;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer22WalmartItemAPIRequests")
-@interface WalmartItemAPIRequests : NSObject
-- (NSUUID * _Nullable)registerAddItemRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerAddUserRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerClickDetailRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerFindItemsRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerGetUsersRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddItemRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddUserRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterClickDetailRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterFindItemsRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterGetUsersRequestHandlerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
-- (void)clickDetailWithResponseCompletionHandler:(void (^ _Nonnull)(Item * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (void)findItemsWithLimit:(NSInteger)_ responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (void)getUsersWithLimit:(NSInteger)_ responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))_;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer17WalmartItemEvents")
-@interface WalmartItemEvents : WalmartItemAPIEvents
-- (NSUUID * _Nullable)addItemAddedEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)eventListener SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeEventListener _Nullable)removeItemAddedEventListenerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (void)emitEventItemAddedWithItemId:(NSString * _Nonnull)itemId;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC18ElectrodeContainer19WalmartItemRequests")
-@interface WalmartItemRequests : WalmartItemAPIRequests
-- (NSUUID * _Nullable)registerAddItemRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerAddUserRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerClickDetailRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerFindItemsRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (NSUUID * _Nullable)registerGetUsersRequestHandlerWithHandler:(ElectrodeBridgeRequestCompletionHandler _Nonnull)handler SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddItemRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterAddUserRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterClickDetailRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterFindItemsRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (ElectrodeBridgeRequestCompletionHandler _Nullable)unregisterGetUsersRequestHandlerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
-- (void)clickDetailWithResponseCompletionHandler:(void (^ _Nonnull)(Item * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (void)findItemsWithLimit:(NSInteger)limit responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (void)getUsersWithLimit:(NSInteger)limit responseCompletionHandler:(void (^ _Nonnull)(NSArray<Item *> * _Nullable, id <ElectrodeFailureMessage> _Nullable))responseCompletionHandler;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
