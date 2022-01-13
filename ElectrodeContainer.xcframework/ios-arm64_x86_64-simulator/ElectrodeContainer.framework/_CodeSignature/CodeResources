@@ -143,7 +143,7 @@
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		iPr+4MnsnjzDdPg5fFcYPMCDdnU=
+		qdfd3QKHQTbkEydzHEZmGYFOM2Q=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -200,10 +200,6 @@
 		<key>assets/README.md</key>
 		<data>
 		XdqLAfT+cHb3wnrIxirbSfFLWVQ=
-		</data>
-		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
-		<data>
-		4K8x+nS4CTlAvCQW4s8i6jn5V10=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -438,7 +434,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8oJ294dX1qlQzRLDOIobntcqRSXL48UCyFy7AJpigd8=
+			OP/VGLsqkGSII/zgjgBRxZf2s4qTNE/YDBgloh00uFw=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -537,13 +533,6 @@
 			<key>hash2</key>
 			<data>
 			6Ncqh0D3/+YFGwzKAPXEwnwAuQ6plc4bQl6wcaLiTOk=
-			</data>
-		</dict>
-		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O1vzdHf7ZoEnpM2Eyd8pgI8NYBkJQyorjpdBKhYRkdg=
 			</data>
 		</dict>
 	</dict>
