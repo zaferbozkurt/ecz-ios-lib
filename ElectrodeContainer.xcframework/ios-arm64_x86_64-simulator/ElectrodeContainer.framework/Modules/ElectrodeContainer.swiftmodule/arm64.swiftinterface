@@ -6,6 +6,80 @@ import Foundation
 import Swift
 import UIKit
 import _Concurrency
+@objc @_inheritsConvenienceInitializers @objcMembers public class Item : ElectrodeContainer.ElectrodeObject, ElectrodeContainer.Bridgeable {
+  @objc final public let id: Swift.Int64
+  @objc final public let name: Swift.String
+  @objc final public let desc: Swift.String?
+  @objc public init(id: Swift.Int64, name: Swift.String, desc: Swift.String?)
+  @objc override dynamic public init()
+  @objc required public init(dictionary: [Swift.AnyHashable : Any])
+  @objc public func toDictionary() -> Foundation.NSDictionary
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WalmartItemAPI : ObjectiveC.NSObject {
+  @objc public var events: ElectrodeContainer.WalmartItemAPIEvents {
+    @objc get
+    @objc set(value)
+  }
+  @objc public var requests: ElectrodeContainer.WalmartItemAPIRequests {
+    @objc get
+    @objc set(value)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WalmartItemAPIEvents : ObjectiveC.NSObject {
+  @objc public func addItemAddedEventListener(eventListener _: @escaping ElectrodeContainer.ElectrodeBridgeEventListener) -> Foundation.UUID?
+  @objc public func removeItemAddedEventListener(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeEventListener?
+  @objc public func emitEventItemAdded(itemId _: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WalmartItemAPIRequests : ObjectiveC.NSObject {
+  @objc public func registerAddItemRequestHandler(handler _: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc public func registerAddUserRequestHandler(handler _: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc public func registerClickDetailRequestHandler(handler _: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc public func registerFindItemsRequestHandler(handler _: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc public func registerGetUsersRequestHandler(handler _: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc public func unregisterAddItemRequestHandler(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc public func unregisterAddUserRequestHandler(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc public func unregisterClickDetailRequestHandler(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc public func unregisterFindItemsRequestHandler(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc public func unregisterGetUsersRequestHandler(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  public func addItem(item _: ElectrodeContainer.Item, responseCompletionHandler _: @escaping (Swift.Bool?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  public func addUser(item _: ElectrodeContainer.Item, responseCompletionHandler _: @escaping (Swift.Bool?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc public func clickDetail(responseCompletionHandler _: @escaping (ElectrodeContainer.Item?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc public func findItems(limit _: Swift.Int, responseCompletionHandler _: @escaping ([ElectrodeContainer.Item]?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc public func getUsers(limit _: Swift.Int, responseCompletionHandler _: @escaping ([ElectrodeContainer.Item]?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WalmartItemEvents : ElectrodeContainer.WalmartItemAPIEvents {
+  @objc override public func addItemAddedEventListener(eventListener: @escaping ElectrodeContainer.ElectrodeBridgeEventListener) -> Foundation.UUID?
+  @objc override public func removeItemAddedEventListener(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeEventListener?
+  @objc override public func emitEventItemAdded(itemId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WalmartItemRequests : ElectrodeContainer.WalmartItemAPIRequests {
+  @objc override public func registerAddItemRequestHandler(handler: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc override public func registerAddUserRequestHandler(handler: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc override public func registerClickDetailRequestHandler(handler: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc override public func registerFindItemsRequestHandler(handler: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc override public func registerGetUsersRequestHandler(handler: @escaping ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler) -> Foundation.UUID?
+  @objc override public func unregisterAddItemRequestHandler(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc override public func unregisterAddUserRequestHandler(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc override public func unregisterClickDetailRequestHandler(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc override public func unregisterFindItemsRequestHandler(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  @objc override public func unregisterGetUsersRequestHandler(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeRequestCompletionHandler?
+  override public func addItem(item: ElectrodeContainer.Item, responseCompletionHandler: @escaping (Swift.Bool?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  override public func addUser(item: ElectrodeContainer.Item, responseCompletionHandler: @escaping (Swift.Bool?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc override public func clickDetail(responseCompletionHandler: @escaping (ElectrodeContainer.Item?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc override public func findItems(limit: Swift.Int, responseCompletionHandler: @escaping ([ElectrodeContainer.Item]?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc override public func getUsers(limit: Swift.Int, responseCompletionHandler: @escaping ([ElectrodeContainer.Item]?, ElectrodeContainer.ElectrodeFailureMessage?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @objcMembers public class EnNavigationAPI : ObjectiveC.NSObject {
   @objc public var events: ElectrodeContainer.EnNavigationAPIEvents {
     @objc get
@@ -280,7 +354,7 @@ open class MiniAppsConfig {
   final public let miniApps: [Swift.String]
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MoviesReloadedNavigationController : ElectrodeContainer.ENBaseNavigationController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class EczMiniappNavigationController : ElectrodeContainer.ENBaseNavigationController {
   @_Concurrency.MainActor(unsafe) override open func getRootComponentName() -> Swift.String
   @objc override dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
